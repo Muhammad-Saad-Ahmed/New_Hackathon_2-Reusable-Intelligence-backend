@@ -33,12 +33,13 @@ class Settings:
 
         # CORS settings
         self.ALLOWED_ORIGINS = [
-            "https://new-hackathon-2-reusable-intelligen.vercel.app/"
+            "https://new-hackathon-2-reusable-intelligen.vercel.app",
             "http://localhost",
             "http://localhost:3000",  # Default Next.js port
             "http://127.0.0.1:3000",
             "http://localhost:8000",  # For API testing
             "http://127.0.0.1:8000",
+            "https://new-hackathon-2-reusable-intelligen-peach.vercel.app"
         ]
 
         # Debug mode
